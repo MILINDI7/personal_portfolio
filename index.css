@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  width: 327px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -137,7 +137,6 @@ p {
 .skills {
   position: absolute;
   margin-top: 220px;
-  margin-left: -330px;
 }
 
 .skills h3 {
@@ -233,6 +232,7 @@ p {
   width: 312px;
   height: 40px;
   list-style-type: none;
+  margin-left: -30px;
 }
 
 .esentials li {
@@ -265,7 +265,7 @@ button {
   display: grid;
   margin-top: 130px;
   margin-left: -30px;
-  width: 80%;
+  width: 70%;
 }
 
 .contact h2 {
@@ -279,7 +279,7 @@ button {
   align-items: center;
   text-align: center;
   color: #9390ff;
-  padding-left: 120px;
+  padding-left: 80px;
 }
 
 .more p {
@@ -290,4 +290,5 @@ button {
   line-height: 24px;
   text-align: center;
   color: #f5f5ff;
+  width: 80%;
 }
