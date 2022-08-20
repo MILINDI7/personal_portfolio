@@ -9,6 +9,7 @@ main {
   width: 400px;
   display: flex;
   flex-direction: column;
+  margin: 30px;
 }
 
 .nav-bar {
