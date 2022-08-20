@@ -1,64 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-
 body {
-    background: #191765;
+  background: #191765;
 }
 
 main {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: #edecff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #edecff;
 }
 
 .informations {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 86%;
-    margin-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    height: 190px;
-    color: #c8c8d4;
-    border-bottom: 1px solid #646369;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 86%;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  height: 190px;
+  color: #c8c8d4;
+  border-bottom: 1px solid #646369;
 }
 
 .owner {
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700px;
-    font-size: 25px;
-    text-align: center;
-    letter-spacing: 0.37px;
-    color: #7d73fc;
-    margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700px;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  margin-top: 80px;
 }
 
 p {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }
