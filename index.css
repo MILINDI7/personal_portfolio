@@ -89,7 +89,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 7.16667px;
+  padding: 0 7.16667px;
   margin: 20px;
   gap: 10.78px;
   width: 111.08px;
@@ -118,7 +118,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 7.16667px;
+  padding: 0 7.16667px;
   margin: 20px;
   gap: 10.78px;
   width: 111.08px;
@@ -134,9 +134,10 @@ p {
   color: #f5f5ff;
 }
 
-span {
+.skills {
   position: absolute;
   margin-top: 220px;
+  margin-left: -330px;
 }
 
 .skills h3 {
@@ -152,7 +153,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 7.16667px;
+  padding: 0 7.16667px;
   margin: 20px;
   gap: 10.78px;
   width: 111.08px;
@@ -179,7 +180,7 @@ span {
 }
 
 .direction {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -189,7 +190,7 @@ span {
 .recent {
   display: flex;
   align-self: flex-start;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -200,7 +201,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   height: 729px;
@@ -214,22 +214,21 @@ span {
   font-size: 22px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .multi-info {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #DCDCE8;
+  color: #dcdcE8;
 }
 
 .esentials ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 14px;
   width: 312px;
   height: 40px;
@@ -273,7 +272,7 @@ button {
 .contact h2 {
   width: 327px;
   height: 35px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
