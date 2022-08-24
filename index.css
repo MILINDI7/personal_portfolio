@@ -248,6 +248,10 @@ p {
   color: #fff;
 }
 
+.form-sect li + li {
+  margin-top: 1em;
+}
+
 .esentials ul li:nth-child(2),
 .esentials ul li:nth-child(3),
 .esentials ul li:nth-child(4) {
@@ -305,10 +309,6 @@ form {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.form-sect li + li {
-  margin-top: 1em;
 }
 
 label {
