@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  width: 320px;
+  max-width: 370px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -294,10 +294,11 @@ button {
 }
 
 form {
-  width: 380px;
+  width: 370px;
   padding: 1em;
   margin: 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #3a3837;
+  height: 500px;
 }
 
 ul {
@@ -344,5 +345,19 @@ input:focus, textarea:focus {
 
 button:hover {
   background-color: #7d73fc;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
 }
 
