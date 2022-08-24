@@ -293,5 +293,55 @@ button {
   width: 80%;
 }
 
+form {
+  width: 380px;
+  padding: 1em;
+  margin: 0;
+}
 
-button:
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+
+textarea {
+  font: 'Roboto', sans-serif;
+  width: 330px;
+  margin-left: -35px;
+  box-sizing: border-box;
+  border: 1px solid #000; 
+  height: 140px;
+}
+
+input {
+  font: 'Roboto', sans-serif;
+  width: 330px;
+  box-sizing: border-box;
+  border: 1px solid #000; 
+  height: 48px;
+  margin-left: -35px;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+.form-sect button {
+  margin-left: 80px;
+}
+
+button:hover {
+  background-color: #7d73fc;
+}
+
