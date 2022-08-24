@@ -297,6 +297,7 @@ form {
   width: 380px;
   padding: 1em;
   margin: 0;
+  border-bottom: 1px solid gray;
 }
 
 ul {
