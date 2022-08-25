@@ -330,7 +330,7 @@ input[type=email] {
   font-size: 15px;
   display: inline-block;
   background-color: #fff;
-  color: #81818C;
+  color: #81818c;
 }
 
 textarea {
@@ -367,7 +367,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #5E42D7;
+  background-color: #5e42d7;
 }
 
 footer {
