@@ -445,11 +445,11 @@ footer {
       right 0 top 3760px;
     width: 100vw;
     height: 100vh;
-}
-  
-    main {
-      max-width: 1720px;
-    }
+  }
+
+  main {
+    max-width: 1720px;
+  }
 
   .headline {
     display: flex;
