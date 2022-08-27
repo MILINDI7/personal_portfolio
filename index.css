@@ -3,11 +3,11 @@
 
 @media only screen and (max-device-width: 759px) {
     .directions {
-        display: none;
+      display: none;
     }
 
     .contact h3 {
-        display: none;
+      display: none;
     }
 }
 
