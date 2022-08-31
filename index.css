@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  max-width: 370px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -232,7 +232,7 @@ p {
   width: 312px;
   height: 40px;
   list-style-type: none;
-  margin-left: -12px;
+  margin-left: -30px;
 }
 
 .esentials li {
@@ -246,10 +246,6 @@ p {
   font-size: 15px;
   font-weight: 500;
   color: #fff;
-}
-
-.form-sect li + li {
-  margin-top: 1em;
 }
 
 .esentials ul li:nth-child(2),
@@ -295,91 +291,4 @@ button {
   text-align: center;
   color: #f5f5ff;
   width: 80%;
-}
-
-form {
-  width: 370px;
-  padding: 1em;
-  margin: 0;
-  border-bottom: 1px solid #3a3837;
-  height: 500px;
-}
-
-.form-sect ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-input[type=text] {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  padding: 15px 16px;
-  font-size: 15px;
-  display: inline-block;
-  background-color: #fff;
-  color: #191765;
-}
-
-input[type=email] {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  padding: 15px 16px;
-  font-size: 15px;
-  display: inline-block;
-  background-color: #fff;
-  color: #81818c;
-}
-
-textarea {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  width: 330px;
-  margin-left: -35px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  height: 140px;
-  padding: 12px 12px;
-}
-
-input {
-  font: 'Roboto', sans-serif;
-  width: 330px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  height: 48px;
-  margin-left: -35px;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #000;
-}
-
-.form-sect button {
-  margin-left: 80px;
-}
-
-button:hover {
-  background-color: #7d73fc;
-}
-
-button:active {
-  background-color: #5e42d7;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-p {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #ebebff;
 }
