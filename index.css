@@ -40,7 +40,7 @@ body {
 }
 
 main {
-  max-width: 370px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -270,7 +270,7 @@ p {
   width: 312px;
   height: 40px;
   list-style-type: none;
-  margin-left: -12px;
+  margin-left: -30px;
 }
 
 .esentials li {
@@ -284,10 +284,6 @@ p {
   font-size: 15px;
   font-weight: 500;
   color: #fff;
-}
-
-.form-sect li + li {
-  margin-top: 1em;
 }
 
 .esentials ul li:nth-child(2),
