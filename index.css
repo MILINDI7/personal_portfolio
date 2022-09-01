@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-@media only screen and (max-device-width: 759px) {
+@media only screen and (max-device-width: 768px) {
   .directions {
     display: none;
   }
@@ -50,6 +50,10 @@ main {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+}
+
+.linking {
+  color: #fff;
 }
 
 .headline {
@@ -449,6 +453,8 @@ footer {
 
   main {
     max-width: 1720px;
+    width: 98%;
+    margin: 10px;
   }
 
   .headline {
@@ -517,10 +523,11 @@ footer {
     justify-content: space-between;
     width: 1000px;
     height: 500px;
+    margin-left: 200px;
   }
 
   .multi-post1 img {
-    width: 550px;
+    width: 580px;
   }
 
   .handle {
@@ -534,6 +541,7 @@ footer {
     justify-content: space-between;
     width: 1000px;
     height: 500px;
+    margin-left: 200px;
   }
 
   .handle2 {
@@ -551,6 +559,7 @@ footer {
     justify-content: space-between;
     width: 1000px;
     height: 500px;
+    margin-left: 200px;
   }
 
   .handle3 {
@@ -568,6 +577,7 @@ footer {
     justify-content: space-between;
     width: 1000px;
     height: 500px;
+    margin-left: 200px;
   }
 
   .handle4 {
@@ -609,12 +619,21 @@ footer {
     width: 1000px;
   }
 
-  .form-sect {
+  .reach {
     width: 1000px;
-    margin-top: 30px;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+  }
+
+  .form-sect {
+    width: 1200px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
   }
 
   input {
