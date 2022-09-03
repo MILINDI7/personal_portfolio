@@ -9,6 +9,10 @@
   .contact h3 {
     display: none;
   }
+
+  .desk-links {
+    display: none;
+  }
 }
 
 body {
@@ -50,10 +54,22 @@ main {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .linking {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  width: 77px;
+  height: 20px;
+  text-decoration: none;  
+}
+
+a {
+  text-decoration: none;
 }
 
 .headline {
@@ -457,6 +473,13 @@ footer {
     margin: 10px;
   }
 
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 1200px;
+  }
+
   .headline {
     display: flex;
     flex-direction: column;
@@ -644,6 +667,14 @@ footer {
     width: 830px;
   }
 
+  button:hover {
+    background-color: #7d73fc;
+}
+
+  button:active {
+    background-color: #5e42d7;
+}
+
   .form-sect button {
     margin: 90px 260px;
     width: 160px;
@@ -656,7 +687,45 @@ footer {
     justify-content: center;
   }
 
+  .menu {
+    display: none;
+  }
+
   form {
     width: 1000px;
   }
+}
+
+.desk-links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.baluwa img {
+  color: #fff;
+}
+
+.port {
+  margin: 0 10px;
+}
+
+.abouts {
+  margin: 0 20px;
+}
+
+.contacts {
+  margin: 0 20px;
+}
+
+.baluwa {
+  margin: 0 20px;
+  color: #fff;
 }
