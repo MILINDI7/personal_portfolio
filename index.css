@@ -65,7 +65,7 @@ main {
   font-size: 22px;
   width: 77px;
   height: 20px;
-  text-decoration: none;  
+  text-decoration: none; 
 }
 
 a {
@@ -665,11 +665,11 @@ footer {
 
   button:hover {
     background-color: #7d73fc;
-}
+  }
 
   button:active {
     background-color: #5e42d7;
-}
+  }
 
   .form-sect button {
     margin: 90px 260px;
@@ -701,7 +701,7 @@ footer {
   color: #fff;
 }
 
-a {
+.desk-links a {
   color: #fff;
 }
 
